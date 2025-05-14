@@ -1,0 +1,54 @@
+h1 {
+    color: green;
+    font-style: italic;
+}
+li {
+    color: grey;
+    padding-top: 3px;
+    font-size: 15px;
+}
+
+.person {
+    color: grey;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.close-notification {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: #333;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    height: 24px;
+    line-height: 20px;
+    margin-left: 10px;
+    padding: 0;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    width: 24px;
+}
+
+.close-notification:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+
+.notification {
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: green;
+    background: lightgrey;
+}
+.error {
+    color: red;
+    background: lightgrey;
+}
